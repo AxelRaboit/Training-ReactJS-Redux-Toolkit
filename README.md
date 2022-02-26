@@ -1,5 +1,7 @@
 # Cours sur React et Redux Toolkit
 
-1. Clonez le dépot sur votre propre machine : `git clone https://github.com/liorchamla/cours-redux-toolkit.git` ou alors ouvrez le dans Gitpod :)
-2. Installez les dépendances : `npm install` (fait par défaut sur Gitpod)
-3. Lancez l'application : `npm start`
+- Dans le projet initial, nous avons fait une todo list en passant des props dans des composants dans lequel nous n'avons pas besoin des props mais qui sert juste de transit de passage de props à un autre composant.
+
+- L'objectif va etre donc de passer les props directement dans le composant dans lequel nous souhaitons travailler avec les props plutot que de passer par des composant pour faire transiter les props.
+
+- Nous allons donc utiliser Redux Toolkit.
