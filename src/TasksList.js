@@ -1,17 +1,20 @@
+import { Fragment } from "react";
+import { useSelector } from "react-redux";
 import TaskItem from "./TaskItem";
 
-const TasksList = (props) => {
+const TasksList = () => {
+
+  const tasks = useSelector(state => state.todo);
+
   return (
-    <>
-      {props.tasks.map((t) => (
+    <Fragment>
+      {tasks.map((t) => (
         <TaskItem
           task={t}
           key={t.id}
-          toggleTask={props.toggleTask}
-          deleteTask={props.deleteTask}
         />
       ))}
-    </>
+    </Fragment>
   );
 };
 
