@@ -13,4 +13,3 @@ Et donc pour une petite application cela serait plutot contraignant que autre ch
 C’est pourquoi existe Redux Toolkit.
 Redux Toolkit va permettre de gérer pas mal de chose de façon automatique.
 ```
-
